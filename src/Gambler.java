@@ -1,10 +1,10 @@
 public class Gambler {
 	
-	//UC1
+	//UC1  As a Gambler, would start with a stake
 	public static final int INITIAL_BET_STAKE = 100;
     public static final int BET_AMT = 1;
     
-    //UC2
+    // UC2 As a Gambler make bet so either win or loose.
     public void gambler_SolutionUC2(){
   
     	double num =  Math.floor(Math.random() *10) % 2;
