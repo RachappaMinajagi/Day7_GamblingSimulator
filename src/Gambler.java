@@ -1,14 +1,23 @@
+import java.util.Scanner; // import scanner class
+
 public class Gambler {
-	/* UC1 As a Gambler, would start with a stake
-	 * 
-	 */
-	public static final int INITIAL_BET_STAKE = 100;
-    public static final int BET_AMT = 1;
-    
-	public static void main(String[] args) {
-		System.out.println("welcome to gambler simulator problem");
-		Gambler game = new Gambler();
-	
-	}
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in); // create scanner object
+
+        System.out.println("Enter amount of stake :");
+
+        int amount = sc.nextInt();
+
+        System.out.println("Enter amount to bet after every play :");
+
+        int bet = sc.nextInt();
+
+        System.out.println("Amount of stake is "+amount);
+        
+        System.out.println("Amount to bet after every game "+bet);
+
+    }
 
 }
